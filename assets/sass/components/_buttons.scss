@@ -1,0 +1,22 @@
+.content__Info--button{
+    background-color: white;
+    border: 0.063rem solid $smokyblack;
+    color: $smokyblack;
+    padding: 0.938rem 2.5rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+
+    &:hover{
+        border: 0.063rem solid $lightgray;
+    }
+
+    &:focus{
+        border: 0.063rem solid $lightgray;
+        color: $lightgray;
+    }
+
+    @include phone-view{
+        padding: 0.6rem 1rem;
+    }
+}

@@ -1,0 +1,33 @@
+.navbar__Brand{
+    @include px-to-rem(100, height); 
+    @include px-to-rem(100, width); 
+    background-color: $smokyblack;
+    @include px-to-rem(20, margin-left); 
+    @include px-to-rem(10, margin-block);
+    @include tablet-view{
+        margin-block: 0;
+        margin-left: 0;
+    }
+    float: left;
+
+    & h1{
+        @include px-to-rem(15, padding); 
+    
+    }
+}
+
+.navbar__Menu ul {
+    list-style-type: none;
+    float: right;
+    @include px-to-rem(30, padding-top); 
+    @include px-to-rem(30, padding-right); 
+
+    & li {
+        display: inline;
+
+        & a {
+            @include px-to-rem(25, padding-inline); 
+        }
+    }
+}
+

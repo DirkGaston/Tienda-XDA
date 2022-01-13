@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@400;700&family=Raleway:wght@400;700&display=swap');
+
+.navbar__Brand h1{
+    font-family: $oldstandardtt;
+    font-size: $xx-large;
+    font-weight: $bold;
+    color: white;
+
+}
+
+.navbar__Menu ul li a{
+    font-family: $raleway;
+    font-size: $large;
+    font-weight: $bold;
+    color: $smokyblack;
+    text-decoration: none;
+}
+
+.content__Info h1{
+    font-family: $oldstandardtt;
+    font-size: $xxx-large;
+    font-weight: $bold;
+    color: $smokyblack;
+}
+
+.content__Info p{
+    font-family: $raleway;
+    font-size: $large;
+    font-weight: $regular;
+    color: $smokyblack;
+}
+
+.content__Info button{
+    font-family: $raleway;
+    font-size: $large;
+    font-weight: $bold;
+}
+
+
+.content__Newsletter h2{
+    font-family: $oldstandardtt;
+    font-size: $xx-large;
+    font-weight: $bold;
+    color: white; 
+}
+
+.content__Newsletter form label{
+    font-family: $oldstandardtt;
+    font-size: $large;
+    font-weight: $regular;
+    color: white; 
+}
+
+::placeholder { 
+    font-family: $raleway;
+    font-weight: $regular;
+    font-size: $x-small;
+    color: $smokyblack; 
+    opacity: 1; 
+  }
+
+h3{
+    font-family: $oldstandardtt;
+    font-size: $x-large;
+    font-weight: $bold;
+    color: $smokyblack;
+}
